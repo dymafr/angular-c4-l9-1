@@ -11,7 +11,7 @@ export class EnfantComponent implements OnChanges {
   @Input() prenom?: string;
   @Input() monObj?: { prenom: string };
 
-  public changeLog = [];
+  public changeLog: string[] = [];
 
   constructor() {}
 
